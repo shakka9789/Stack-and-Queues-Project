@@ -1,0 +1,12 @@
++ Tom Insert 
+Head -> (dummy, Tom) ->  null
+Tail -> (Tom, null)
++ Adam Insert 
+Head -> (dummy, Tom) -> (Tom, Adam) ->  null
+Tail -> (Adam, null)
++ Sean Insert 
+Head -> (dummy, Tom) -> (Tom, Adam) -> (Adam, Sean) ->  null
+Tail -> (Sean, null)
++ Michael Insert 
+Head -> (dummy, Tom) -> (Tom, Adam) -> (Adam, Sean) -> (Sean, Michael) ->  null
+Tail -> (Michael, null)

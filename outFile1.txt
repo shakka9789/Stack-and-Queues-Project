@@ -1,0 +1,8 @@
++ Tom added to stack
+Top -> (Tom, dummy) -> null
++ Adam added to stack
+Top -> (Adam, Tom) -> (Tom, dummy) -> null
++ Sean added to stack
+Top -> (Sean, Adam) -> (Adam, Tom) -> (Tom, dummy) -> null
++ Michael added to stack
+Top -> (Michael, Sean) -> (Sean, Adam) -> (Adam, Tom) -> (Tom, dummy) -> null
