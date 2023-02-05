@@ -1,8 +1,38 @@
-+ Tom added to stack
-Top -> (Tom, dummy) -> null
-+ Adam added to stack
-Top -> (Adam, Tom) -> (Tom, dummy) -> null
-+ Sean added to stack
-Top -> (Sean, Adam) -> (Adam, Tom) -> (Tom, dummy) -> null
-+ Michael added to stack
-Top -> (Michael, Sean) -> (Sean, Adam) -> (Adam, Tom) -> (Tom, dummy) -> null
++ John added to stack
+Top -> (John, dummy) -> null
++ Jane added to stack
+Top -> (Jane, John) -> (John, dummy) -> null
+- John removed from stack
+Top -> (John, dummy) -> null
++ Alice added to stack
+Top -> (Alice, John) -> (John, dummy) -> null
+- Jane removed from stack
+Top -> (John, dummy) -> null
++ Bob added to stack
+Top -> (Bob, John) -> (John, dummy) -> null
++ Charlie added to stack
+Top -> (Charlie, Bob) -> (Bob, John) -> (John, dummy) -> null
+- Alice removed from stack
+Top -> (Bob, John) -> (John, dummy) -> null
++ Eve added to stack
+Top -> (Eve, Bob) -> (Bob, John) -> (John, dummy) -> null
+- Bob removed from stack
+Top -> (Bob, John) -> (John, dummy) -> null
++ Frank added to stack
+Top -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null
+ Error
+Top -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null
++ Grace added to stack
+Top -> (Grace, Frank) -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null
+- Eve removed from stack
+Top -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null
+ Error
+Top -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null
++ Henry added to stack
+Top -> (Henry, Frank) -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null
++ Ivy added to stack
+Top -> (Ivy, Henry) -> (Henry, Frank) -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null
+- Frank removed from stack
+Top -> (Henry, Frank) -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null
+ Error
+Top -> (Henry, Frank) -> (Frank, Bob) -> (Bob, John) -> (John, dummy) -> null

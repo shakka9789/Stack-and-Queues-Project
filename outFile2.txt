@@ -1,12 +1,57 @@
-+ Tom Insert 
-Head -> (dummy, Tom) ->  null
-Tail -> (Tom, null)
-+ Adam Insert 
-Head -> (dummy, Tom) -> (Tom, Adam) ->  null
-Tail -> (Adam, null)
-+ Sean Insert 
-Head -> (dummy, Tom) -> (Tom, Adam) -> (Adam, Sean) ->  null
-Tail -> (Sean, null)
-+ Michael Insert 
-Head -> (dummy, Tom) -> (Tom, Adam) -> (Adam, Sean) -> (Sean, Michael) ->  null
-Tail -> (Michael, null)
++ John Insert
+Head -> (dummy, John) ->  null
+Tail -> (John, null)
++ Jane Insert
+Head -> (dummy, John) -> (John, Jane) ->  null
+Tail -> (Jane, null)
+- John Delete
+Head -> (dummy, Jane) ->  null
+Tail -> (Jane, null)
++ Alice Insert
+Head -> (dummy, Jane) -> (Jane, Alice) ->  null
+Tail -> (Alice, null)
+- Jane Delete
+Head -> (dummy, Alice) ->  null
+Tail -> (Alice, null)
++ Bob Insert
+Head -> (dummy, Alice) -> (Alice, Bob) ->  null
+Tail -> (Bob, null)
++ Charlie Insert
+Head -> (dummy, Alice) -> (Alice, Bob) -> (Bob, Charlie) ->  null
+Tail -> (Charlie, null)
+- Alice Delete
+Head -> (dummy, Bob) -> (Bob, Charlie) ->  null
+Tail -> (Charlie, null)
++ Eve Insert
+Head -> (dummy, Bob) -> (Bob, Charlie) -> (Charlie, Eve) ->  null
+Tail -> (Eve, null)
+- Bob Delete
+Head -> (dummy, Charlie) -> (Charlie, Eve) ->  null
+Tail -> (Eve, null)
++ Frank Insert
+Head -> (dummy, Charlie) -> (Charlie, Eve) -> (Eve, Frank) ->  null
+Tail -> (Frank, null)
+ Error
+Head -> (dummy, Charlie) -> (Charlie, Eve) -> (Eve, Frank) ->  null
+Tail -> (Frank, null)
++ Grace Insert
+Head -> (dummy, Charlie) -> (Charlie, Eve) -> (Eve, Frank) -> (Frank, Grace) ->  null
+Tail -> (Grace, null)
+- Eve Delete
+Head -> (dummy, Eve) -> (Eve, Frank) -> (Frank, Grace) ->  null
+Tail -> (Grace, null)
+ Error
+Head -> (dummy, Eve) -> (Eve, Frank) -> (Frank, Grace) ->  null
+Tail -> (Grace, null)
++ Henry Insert
+Head -> (dummy, Eve) -> (Eve, Frank) -> (Frank, Grace) -> (Grace, Henry) ->  null
+Tail -> (Henry, null)
++ Ivy Insert
+Head -> (dummy, Eve) -> (Eve, Frank) -> (Frank, Grace) -> (Grace, Henry) -> (Henry, Ivy) ->  null
+Tail -> (Ivy, null)
+- Frank Delete
+Head -> (dummy, Frank) -> (Frank, Grace) -> (Grace, Henry) -> (Henry, Ivy) ->  null
+Tail -> (Ivy, null)
+ Error
+Head -> (dummy, Frank) -> (Frank, Grace) -> (Grace, Henry) -> (Henry, Ivy) ->  null
+Tail -> (Ivy, null)
